@@ -23,53 +23,27 @@ gtag('config', 'UA-114657221-1');
 <meta name="viewport" content="width=device-width" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<link rel="shortcut icon" href="http://arizdesign.com/brand/arizdesign_favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="http://arizdesign.com/assets/code/reset.css">
+<link rel="shortcut icon" href="https://arizdesign.com/brand/arizdesign_favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="https://arizdesign.com/assets/code/reset.css">
 	
-<link rel="stylesheet" type="text/css" href="http://arizdesign.com/dex/stylepokedex.css">
+<link rel="stylesheet" type="text/css" href="https://arizdesign.com/dex/stylepokedex.css">
 
 
 <!-- JS LOADING FROM GOOGLE -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 <!-- FALL BACK JS LOADING -->
-<script src="http://arizdesign.com/assets/code/js/vendor/modernizr-2.6.2.min.js"></script>
-<script>window.jQuery || document.write('<script src="http://arizdesign.com/assets/code/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>	
+<script src="https://arizdesign.com/assets/code/js/vendor/modernizr-2.6.2.min.js"></script>
+<script>window.jQuery || document.write('<script src="https://arizdesign.com/assets/code/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="https://arizdesign.com/dex/scriptpokedex.js"></script>	
 	
-<script src="http://arizdesign.com/assets/code/js/plugins.js"></script>
-<script src="http://arizdesign.com/assets/code/js/main.js"></script>
-<script src="http://arizdesign.com/dex/scriptpokedex.js"></script>
+<script src="https://arizdesign.com/assets/code/js/plugins.js"></script>
+<script src="https://arizdesign.com/assets/code/js/main.js"></script>
 	
 <title>#arizPokedex</title>
-	
 
 </head>
-<body>
+<body class="bodytype">
 
-
-	
-	
-<!-- /// LOADING START /// -->
-<div id="loadingfile"></div>
-
-<script type="text/javascript">
-$( "#loadingfile" ).load( "https://arizdesign.com/dex/assets/code/loading.html" );
-</script>
-<!-- /// LOADING END /// -->
-
-	
-
-<!-- /// SEARCH NAV START /// -->
-<div id="navsearchfile"></div>
-
-<script type="text/javascript">
-$( "#navsearchfile" ).load( "https://arizdesign.com/dex/assets/code/navsearch.html" );
-</script>
-<!-- /// SEARCH NAV END /// -->	
-
-
-	
-	
-	
 	
 	
 	
@@ -81,23 +55,81 @@ $( "#navsearchfile" ).load( "https://arizdesign.com/dex/assets/code/navsearch.ht
 		<div id="navheaderfile"></div>
 
 		<script type="text/javascript">
-		$( "#navheaderfile" ).load( "https://arizdesign.com/dex/assets/code/navheader.html" );
+		$( "#navheaderfile" ).load( "https://arizdesign.com/dex/assets/code/navheader_type.html" );
 		</script>
 		<!-- / HEADER NAV END / -->
-
-
+	
+	
+	
 
 		<!-- / GENERATIONS START / -->
 		<div class="generations">
+		<!-- *** ADD POKEMONS HERE START *** -->
 
-			<!-- GEN1 START -->
-			<div id="gensfile"></div>
+				<!-- GEN1 START -->
+				<div id="gen1file"></div>
 
-			<script type="text/javascript">
-			$( "#gensfile" ).load( "https://arizdesign.com/dex/gens/gens.html" );
-			</script>
-			<!-- GEN1 END -->
+				<script type="text/javascript">
+				$( "#gen1file" ).load( "https://arizdesign.com/dex/gens/gen1.html .best" );
+				</script>	
+				<!-- GEN1 END -->	
 
+			
+				<!-- GEN2 START -->	
+				<div id="gen2file"></div>
+
+				<script type="text/javascript">
+				$( "#gen2file" ).load( "https://arizdesign.com/dex/gens/gen2.html .best" );
+				</script>
+				<!-- GEN2 END -->
+
+			
+				<!-- GEN3 START -->	
+				<div id="gen3file"></div>
+
+				<script type="text/javascript">
+				$( "#gen3file" ).load( "https://arizdesign.com/dex/gens/gen3.html .best" );
+				</script>
+				<!-- GEN3 END -->
+
+
+				<!-- GEN4 START -->
+				<div id="gen4file"></div>
+
+				<script type="text/javascript">
+				$( "#gen4file" ).load( "https://arizdesign.com/dex/gens/gen4.html .best" );
+				</script>
+				<!-- GEN4 END -->
+
+
+				<!-- GEN5 START -->
+				<div id="gen5file"></div>
+
+				<script type="text/javascript">
+				$( "#gen5file" ).load( "https://arizdesign.com/dex/gens/gen5.html .best" );
+				</script>
+				<!-- GEN5 END -->
+
+
+				<!-- GEN6 START -->
+				<div id="gen6file"></div>
+
+				<script type="text/javascript">
+				$( "#gen6file" ).load( "https://arizdesign.com/dex/gens/gen6.html .best" );
+				</script>
+				<!-- GEN6 END -->
+
+
+				<!-- GEN7 START -->
+				<div id="gen7file"></div>
+
+				<script type="text/javascript">
+				$( "#gen7file" ).load( "https://arizdesign.com/dex/gens/gen7.html .best" );
+				</script>
+				<!-- GEN7 END -->
+
+
+		<!-- *** ADD POKEMONS HERE END *** -->
 		</div>
 		<!-- / GENERATIONS END / -->	
 
@@ -114,7 +146,12 @@ $( "#navsearchfile" ).load( "https://arizdesign.com/dex/assets/code/navsearch.ht
 
 
 </div>
-<!-- /// BODY END /// -->	
+<!-- /// BODY END /// -->
+
+
+	
+
+	
 
 </body>
 </html>
